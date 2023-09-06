@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -empty -exec printf "Empty File: %s\n" {} \; -o -type d -empty -exec printf "Empty Directory: %s\n" {} \;
